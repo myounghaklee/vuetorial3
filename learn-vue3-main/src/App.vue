@@ -14,7 +14,11 @@ export default {
 		TheView,
 	},
 	setup() {
-		return {};
+		const message = ref("안녕하세요");
+
+		return {
+			message,
+		};
 	},
 };
 </script>
